@@ -1,0 +1,30 @@
+.header{
+    height: 200 px;
+    background-image: url('25694.png');
+    background-color: yellow;
+}
+h3{
+    color: magenta;
+    text-decoration: underline;
+}
+
+p{
+    color: violet;
+}
+
+.page title{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    color: purple;
+}
+
+span{
+    border: 1 px solid purple;
+}

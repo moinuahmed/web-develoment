@@ -17,3 +17,14 @@ nav li :hover{
 
     background-color: lightgray;
 }
+
+nav .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding-left: 5;
+}
+
+nav li:hover .dropdown{
+    display: block;
+}

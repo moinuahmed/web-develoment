@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:ital,wght@1,500&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3f1ff;
+}
+main{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+
+}
+.section-title{
+    width: 127px;
+    height: 36px;
+    top: 163px;
+    color: #562eff;
+    font-size: 24px;
+
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -14,4 +38,8 @@
     height: 56px;
     width: 56px;
 
+}
+
+.palyer-name{
+    margin-left: 16px;
 }

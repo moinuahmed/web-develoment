@@ -14,6 +14,9 @@ main{
     width: 870px;
 
 }
+.top-players{
+    margin-bottom: 30px;
+}
 .section-title{
     width: 127px;
     height: 36px;
@@ -21,10 +24,12 @@ main{
     color: #562eff;
     font-size: 24px;
 
+
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
 }
 
 .player{
@@ -40,6 +45,11 @@ main{
 
 }
 
-.palyer-name{
+.player-name{
     margin-left: 16px;
+    font-size: 18px;
+}
+
+hr{
+    border: 1px solid #D1D1D1;
 }
